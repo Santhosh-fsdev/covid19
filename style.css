@@ -1,0 +1,62 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.counts ,.counts1{
+    margin-bottom: 90px;
+}
+.counts > .img >img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.counts1 > .img > img{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+.cards, .cards1{
+    margin-bottom: 40px !important;
+    margin-top: 50px !important;
+}
+.cards > .card, .cards1 > .card{
+    margin: 15px !important;
+    
+    transition: all 0.5s ease-in;
+}
+.cards > .card:hover, .cards1 > .card:hover{
+    cursor: pointer;
+    background-color: #fff !important;
+    color: #000000 !important;
+    transform: scale(1.1);
+}
+#myChart, #myChart1{
+    margin: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    transition: all 1s ease;
+}
+#myChart:hover, #myChart1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.counts2 > h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.chart2{
+    align-items: center;
+    justify-content: center;
+}
