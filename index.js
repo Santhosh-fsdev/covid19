@@ -112,7 +112,7 @@ setTimeout(() => {
     total_content1.classList.add('card-body');
     
 
-    total_content1.innerText = " Total Cases :" + " " + cases[0].data.regional[26].confirmedCasesIndian;
+    total_content1.innerText = " Total Cases :" + " " + cases[0].data.regional[27].confirmedCasesIndian;
     totalcases1.appendChild(total_content1);
     cards1.appendChild(totalcases1);
 
@@ -124,7 +124,7 @@ setTimeout(() => {
     discharged1.classList.add('card-body');
 
 
-    discharged1.innerText = "Discharged : "+" " + cases[0].data.regional[26].discharged;
+    discharged1.innerText = "Discharged : "+" " + cases[0].data.regional[27].discharged;
     indian1.appendChild(discharged1);
     cards1.appendChild(indian1)
 
@@ -136,7 +136,7 @@ setTimeout(() => {
     deaths_count1.classList.add('card-body');
 
 
-    deaths_count1.innerText = "Deaths : " + " "+ cases[0].data.regional[26].deaths;
+    deaths_count1.innerText = "Deaths : " + " "+ cases[0].data.regional[27].deaths;
     deaths1.appendChild(deaths_count1);
     cards1.appendChild(deaths1)
 
@@ -151,9 +151,9 @@ setTimeout(() => {
             datasets: [{
                 label: 'COVID 19 in Tamilnadu',
                 backgroundColor: ['#f19947', '#6bee37', '#ee3737'],
-                data: [cases[0].data.regional[26].confirmedCasesIndian
-                , cases[0].data.regional[26].discharged,
-                cases[0].data.regional[26].deaths]
+                data: [cases[0].data.regional[27].confirmedCasesIndian
+                , cases[0].data.regional[27].discharged,
+                cases[0].data.regional[27].deaths]
             }]
         },
 
